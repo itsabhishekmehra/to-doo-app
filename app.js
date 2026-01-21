@@ -190,5 +190,4 @@ app.delete('/todos/:id', authenticateToken, async (req, res) => {
   }
 });
 
-// Start the server
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+module.exports = app;
